@@ -1,0 +1,30 @@
+html { 
+    background-color: #212121;
+    text-align: center;
+}
+
+button {
+    background-position: center;
+    transition: background 0.8s;
+    font-family: Ubuntu;
+  }
+  button:hover {
+    background: #6C63FF radial-gradient(circle, transparent 1%, #6C63FF 1%) center/15000%;
+  }
+  button:active {
+    border: none;
+    background-color: #000000;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  button {
+    width:20%;
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+  cursor: pointer;
+    color: white;
+    background-color: #6C63FF;
+    box-shadow: 0 0 4px #999;
+  }
